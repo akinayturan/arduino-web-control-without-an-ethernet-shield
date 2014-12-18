@@ -2,13 +2,13 @@
 <html lang="en-US">
 <head>
 	<meta charset="UTF-8">
-	<title>ArduinoTurk Lab</title>
+	<title>Arduino web control</title>
 	<link rel="stylesheet" href="style.css" />
 	<script type="text/javascript" src="jquery.js"></script>
 	<script type="text/javascript" src="sistem.js"></script>
 </head>
 <body>
-	<h1>Arduino<font color="red">Turk</font> Lab</h1>
+	<h1>Arduino web control without an ethernet shield</h1>
 	<?php
 		if(!file_exists("kod.txt")){
 			print "<div class='uyari'>kod.txt dosyası oluşturulmamış!</div>";
